@@ -1,0 +1,49 @@
+.react-accourdion {
+    .accordion-item {
+        &:not(:last-child) {
+            margin-bottom: 24px;
+            @include respond-below(xs) {
+                margin-bottom: 8px;
+            }
+        }
+    }
+    .accordion-body {
+        padding-bottom: 20px;
+        @include respond-below(xs) {
+            padding-bottom: 8px;
+        }
+    }
+    .accordion-header {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0;
+    }
+    .accordion-button {
+        display: block;
+        width: 100%;
+        text-align: left;
+        background-color: transparent;
+        padding: 0 0 24px;
+        position: relative;
+        @include respond-below(xs) {
+            padding-right: 50px;
+            padding: 0 0 8px;
+        }
+        &::after {
+            content: "";
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            right: 0;
+            // background-image: url("/icons/icon-plus.svg");
+            @include respond-below(xs) {
+                top: 0;
+            }
+        }
+        &:not(.collapsed) {
+            &::after {
+                // background-image: url("/icons/icon-minus.svg");
+            }
+        }
+    }
+}

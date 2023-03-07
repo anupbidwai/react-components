@@ -1,0 +1,26 @@
+button {
+    border: 0;
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 0;
+    padding: 16px 48px;
+    border-radius: 24px;
+    max-width: 212px;
+    &--primary {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1px;
+    }
+    &--secondary {
+    }
+    &[disabled] {
+        opacity: 0.6;
+        &:hover {
+            cursor: not-allowed;
+        }
+    }
+}
