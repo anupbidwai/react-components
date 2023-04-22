@@ -1,3 +1,4 @@
+// NPM and doc: https://www.npmjs.com/package/ckeditor4-react
 import { CKEditor } from 'ckeditor4-react';
 
 const defaultConfig = {
@@ -8,7 +9,7 @@ const defaultConfig = {
     ],
     extraPlugins: ["editorplaceholder"],
     format_tags: "p;h3",
-    format_h3: { element: 'h3', attributes: { 'class': 'heading-3' } },
+    format_h3: { element: 'h3', attributes: { 'class': 'your-class-name' } },
     removeButtons: 'Styles,Underline,Subscript,Superscript,Unlink,Anchor',
     uiColor: '#e8e8ef',
     editorplaceholder: 'Type details',

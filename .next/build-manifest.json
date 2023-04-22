@@ -25,10 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/cursor": [
+    "/react/accourdion": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/cursor.js"
+      "static/chunks/pages/react/accourdion.js"
+    ],
+    "/react/dropdown": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/react/dropdown.js"
     ]
   },
   "ampFirstPages": []

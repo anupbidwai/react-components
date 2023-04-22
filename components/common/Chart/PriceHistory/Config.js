@@ -79,13 +79,13 @@ export const data = {
     labels,
     datasets: [
         {
-            label: 'XRP',
+            label: 'Label 1',
             data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             backgroundColor: 'rgba(161, 0, 184, 0.1)',
             borderRadius: 4,
         },
         {
-            label: 'OXP',
+            label: 'Label 2',
             data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             backgroundColor: 'rgba(4, 1, 216, 0.1)',
             borderRadius: 4
